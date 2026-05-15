@@ -2,7 +2,6 @@ import numpy as np
 import pandas as pd
 import pickle
 import streamlit as st
-from streamlit_extras.let_it_rain import rain
 
 model=pickle.load(open("house_model.pkl",'rb'))
 
