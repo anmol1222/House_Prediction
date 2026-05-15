@@ -16,4 +16,4 @@ if st.button("Predict"):
         features=np.array([[size,bedrooms]])
         prediction=model.predict(features)[0]
     st.success(f"Predicted Price: ₹{prediction:,.2f}")
-    st.snow(emoji='❄️',font_size=10, falling_speed=2.3, animation_length='infinite')
+    st.snow(font_size=10, falling_speed=2.3, animation_length='infinite')
